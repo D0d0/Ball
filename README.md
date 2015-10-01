@@ -1,2 +1,2 @@
 # Ball
-Small game for web technologies final exam.
+Small game created during web technologies final exam.

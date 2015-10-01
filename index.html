@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="main.js"></script>
+        <style> 
+            body {
+                margin: 0;
+                overflow: hidden;
+            }
+
+            canvas#bg {
+                position: absolute;
+                z-index: 0;
+            }
+
+            canvas#fg {
+                position: absolute;
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="bg" ></canvas>
+        <canvas id="fg"></canvas>
+        <img id="sky" src="sky.JPG" alt="sky" style="display: none">
+        <audio id="audiotag1" src="crack.mp3" preload="auto"></audio>
+        <audio id="audiotag2" src="click.mp3" preload="auto"></audio>
+    </body>
+</html>
